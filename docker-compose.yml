@@ -1,0 +1,33 @@
+
+services:
+  backend:
+    build: ./backend
+    container_name: battery-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./test_dataset:/app/test_dataset
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/batteryDB
+
+  frontend:
+    build: ./frontend
+    container_name: battery-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  mongodb:
+    image: mongo:6
+    container_name: battery-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
