@@ -1,29 +1,20 @@
-# Node / React
-node_modules/
-build/
-.env
-npm-debug.log
-yarn-error.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-env/
-venv/
-# Node / React
+# React frontend
 frontend/node_modules/
 frontend/build/
 frontend/.env
+frontend/npm-debug.log
+frontend/yarn-error.log
 
-# Python
+# Python backend
 backend/__pycache__/
 backend/*.pyc
 backend/*.pyo
+backend/*.pyd
 backend/env/
 backend/venv/
+backend/.env
+
+node_modules
 
 # Genel
-*.log
 .DS_Store
