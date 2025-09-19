@@ -12,3 +12,18 @@ __pycache__/
 *.pyd
 env/
 venv/
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/env/
+backend/venv/
+
+# Genel
+*.log
+.DS_Store
