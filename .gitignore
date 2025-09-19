@@ -4,6 +4,7 @@ frontend/build/
 frontend/.env
 frontend/npm-debug.log
 frontend/yarn-error.log
+frontend/public
 
 # Python backend
 backend/__pycache__/
