@@ -110,7 +110,8 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Batarya SOC Tahminleri</h1>
+      <h1>Elektrikli Araç SOC Tahmini ve Batarya
+Yönetimi</h1>
 
       <div className="selectors">
         <label>
