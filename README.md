@@ -9,7 +9,6 @@ SOC-Prediction-And-Battery-Management/
 ├─ frontend/      
 ├─ backend/       
 ├─ docker-compose.yml
-├─ Dockerfile 
 └─ README.md
 ```
 
