@@ -6,10 +6,10 @@ Bu proje, **elektrikli araç batarya yönetimi ve SOC (State of Charge) tahmini*
 
 ```
 SOC-Prediction-And-Battery-Management/
-├─ frontend/        # React kullanıcı arayüzü
-├─ backend/         # Python ML ve batarya yönetimi
+├─ frontend/      
+├─ backend/       
 ├─ docker-compose.yml
-├─ Dockerfile (frontend veya backend)
+├─ Dockerfile 
 └─ README.md
 ```
 
